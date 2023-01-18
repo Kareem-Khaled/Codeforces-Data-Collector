@@ -5,14 +5,8 @@ import random
 conn = sqlite3.connect('app.db')
 cursor = conn.cursor()
 
-botKey = '5033647825:AAE97qk1v9GPVm4salO72UbPN5G_1kv1Oa8'
-testId = '-1001369877872'
-trainingId = '-709113185'
-
-paidG = '-1001729010493'
-G = '-1001757014913'
-paidB = '-1001607419329'
-B = '-1001775122981'
+botKey = '#'
+trainingId = '#'
 
 # Get all contestants to get their aceepted soultions
 get = "select * from contestants"
